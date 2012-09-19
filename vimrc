@@ -2,6 +2,7 @@ filetype off
 call pathogen#infect()
 call pathogen#helptags()
 filetype plugin indent on
+syntax on
 
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 
@@ -62,3 +63,8 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+set background=dark
+colorscheme ir_black
+
+let g:pymode_folding=0
