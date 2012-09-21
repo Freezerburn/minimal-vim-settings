@@ -5,6 +5,7 @@ filetype plugin indent on
 syntax on
 
 autocmd FileType python set omnifunc=pythoncomplete#Complete
+au BufNewFile,BufRead *.ejs set filetype=html.js
 
 set nocompatible
 set modelines=0
@@ -65,6 +66,6 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 set background=dark
-colorscheme ir_black
+"colorscheme ir_black
 
 let g:pymode_folding=0
