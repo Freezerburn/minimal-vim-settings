@@ -69,3 +69,4 @@ set background=dark
 "colorscheme ir_black
 
 let g:pymode_folding=0
+let g:ocaml_folder=0
